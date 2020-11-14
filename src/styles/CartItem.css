@@ -1,0 +1,51 @@
+.CartItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #222;
+}
+
+.CartItem div {
+    width: 33%;
+}
+
+.qtyDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.qtyDiv button {
+    padding: 0.2rem;
+    width: 2rem;
+    background-color: #ffc721;
+}
+
+.qtyDiv button:hover {
+    background-color: #ffa64a;
+    color: black;
+    transition: 0.5s;
+}
+
+.qtyDiv button:disabled {
+    background-color: #dec1a0;
+    color: #222;
+    cursor: default;
+}
+
+.qtyDiv button:disabled:hover {
+    background-color: #dec1a0;
+    color: #222;
+}
+
+.qtyDiv p {
+    margin: 0 1rem;
+}
+
+.priceDiv {
+    text-align: right;
+}

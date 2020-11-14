@@ -1,0 +1,51 @@
+.Cart {
+    max-width: 40rem;
+    min-height: 50vh;
+    /*border: 2px solid black;*/
+    border-radius: 5px;
+    margin: 5rem auto;
+    padding: 1rem;
+    background-color: #eee;
+    box-shadow: 2px 2px 10px #555;
+}
+
+.Cart h2 {
+    text-align: right;
+    margin: 2rem 0.5rem 0 0;
+}
+
+.btnsDiv {
+    text-align: right;
+    margin: 2rem 0.5rem 0 0;
+}
+
+.btnsDiv button {
+    height: 2rem;
+    width: 3rem;
+    margin-left: 1rem;
+}
+
+.btnsDiv .buyBtn {
+    width: 5rem;
+    background-color: #4bc440;
+    color: black;
+}
+
+.btnsDiv .buyBtn:hover {
+    background-color: #319628;
+    transition: 0.5s;
+}
+
+.btnsDiv .buyBtn:disabled {
+    background-color: #94d794;
+    cursor: default;
+}
+
+.btnsDiv .clearBtn {
+    background-color: #dddddd;
+}
+
+.btnsDiv .clearBtn:hover {
+    background-color: #ccc;
+    transition: 0.5s;
+}
